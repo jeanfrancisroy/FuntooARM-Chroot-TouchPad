@@ -1,0 +1,8 @@
+Arch Linux ARM Chroot for the HP TouchPad
+=========================================
+
+This package will install Arch Linux ARMto a chroot ext3fs,
+just like the Ubuntu 11.04 chroot. In fact, this is
+going to be basically a copy-paste operation, so take a look
+at http://www.webos-internals.org/wiki/UbuntuChroot and
+search around the internets.
