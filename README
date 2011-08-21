@@ -6,3 +6,9 @@ just like the Ubuntu 11.04 chroot. In fact, this is
 going to be basically a copy-paste operation, so take a look
 at http://www.webos-internals.org/wiki/UbuntuChroot and
 search around the internets.
+
+TODO
+====
+- Make a new app icon
+- Make a new rootfs tgz, including any webos modifications.
+  - e.g. /home/webos
