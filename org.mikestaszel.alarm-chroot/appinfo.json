@@ -1,0 +1,12 @@
+{
+"title": "ArchLinuxARM Chroot 2011.08",
+"id": "org.mikestaszel.alarm-chroot",
+"version": "2011.08-1",
+"vendor": "ArchLinux ARM",
+"type": "web",
+"main": "index.html",
+"icon": "icon.png",
+"message": "An ArchLinux ARM chroot. Requires a dedicated ext3fs partition to be set up using the WebOS Internals Meta-Doctor.",
+"changeLog": [ { "version" : "2011.05-1",  "log" : [ "Initial testing release" ] } ],
+"noWindow": true
+}
