@@ -7,8 +7,13 @@ going to be basically a copy-paste operation, so take a look
 at http://www.webos-internals.org/wiki/UbuntuChroot and
 search around the internets.
 
+Building the IPK
+================
+- Move org.crimsonredmk.alarm-chroot into a folder, usr/palm/applications/
+  - this is the IPK's "data"
+
 TODO
 ====
-- Make a new app icon
 - Make a new rootfs tgz, including any webos modifications.
   - e.g. /home/webos
+- Make the entire Debian IPK structure
