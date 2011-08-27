@@ -14,6 +14,7 @@ Building the IPK
 
 TODO
 ====
-- Make a new rootfs tgz, including any webos modifications.
-  - e.g. /home/webos
+- Add line in pmPostInstall to check if ext3fs is mounted before extracting
 - Make the entire Debian IPK structure
+- Something about upstart scripts?
+- What do we need for Xserver to hook into ArchLinux ARM?
