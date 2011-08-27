@@ -27,8 +27,10 @@ if [ -d /media/ext3fs/${NAME} ] ; then
     echo "Will not overwrite existing chroot directory at /media/ext3fs/${NAME}"
 else
     mkdir -p /media/ext3fs/${NAME} || exit 1
-    wget -O /media/ext3fs/${NAME}/alarm-chroot.tgz http://archlinuxarm.org/os/touchpad-chroot/ArchLinux-ARM-touchpadchroot-2011.08.tar.gz
-    tar -C /media/ext3fs/${NAME} -z -x -f /media/ext3fs/${NAME}/alarm-chroot.tgz || exit 1
+    cd /media/ext3fs/${NAME}
+    curl -C - -O http://archlinuxarm.org/os/ArchLinuxARM-2011.08-armv7h-chroot.tar.gz
+    tar -z -x -f ArchLinuxARM-2011.08-armv7h-chroot.tar.gz || exit 1
+    rm ArchLinuxARM-2011.08-armv7h-chroot.tar.gz
 fi
 
 # Install the upstart script
