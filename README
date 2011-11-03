@@ -1,15 +1,17 @@
-Arch Linux ARM Chroot for the HP TouchPad
+Funtoo ARM Chroot for the HP TouchPad
 =========================================
 
-This package will install Arch Linux ARMto a chroot ext3fs,
-just like the Ubuntu 11.04 chroot. In fact, this is
-going to be basically a copy-paste operation, so take a look
-at http://www.webos-internals.org/wiki/UbuntuChroot and
+This package will install Funtoo ARM to a chroot ext3fs,
+just like ArchLinux Chroot, that is just like the Ubuntu 11.04 
+chroot. In fact, this is going to be basically a copy-paste of
+a copy-paste operation, so take a look at 
+https://github.com/crimsonredmk/ArchLinuxARM-Chroot-TouchPad and 
+http://www.webos-internals.org/wiki/UbuntuChroot and
 search around the internets.
 
 Building the IPK
 ================
-- Move org.crimsonredmk.alarm-chroot into a folder, usr/palm/applications/
+- Move org.funtoo.funtoo-chroot into a folder, usr/palm/applications/
   - this is the IPK's "data"
 
 TODO

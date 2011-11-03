@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APPID=org.crimsonredmk.${NAME}
+APPID=org.funtoo.${NAME}
 
 APPS=/media/cryptofs/apps
 

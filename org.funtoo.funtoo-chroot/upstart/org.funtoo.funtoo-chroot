@@ -1,0 +1,3 @@
+description "Funtoo Chroot"
+
+exec /media/cryptofs/apps/usr/palm/applications/org.funtoo.funtoo-chroot/bin/start-xterm.sh

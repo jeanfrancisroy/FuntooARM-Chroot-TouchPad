@@ -1,8 +1,8 @@
 #!/bin/sh
 
-NAME=alarm-chroot
+NAME=funtoo-chroot
 
-APPID=org.crimsonredmk.${NAME}
+APPID=org.funtoo.${NAME}
 
 APPDIR=/media/cryptofs/apps/usr/palm/applications/${APPID}
 

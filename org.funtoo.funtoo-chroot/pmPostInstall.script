@@ -1,10 +1,10 @@
 #!/bin/sh
 
-DISTRO=alarm
+DISTRO=funtoo
 
 NAME=${DISTRO}-chroot
 
-APPID=org.crimsonredmk.${NAME}
+APPID=org.funtoo.${NAME}
 
 APPS=/media/cryptofs/apps
 
@@ -28,9 +28,9 @@ if [ -d /media/ext3fs/${NAME} ] ; then
 else
     mkdir -p /media/ext3fs/${NAME} || exit 1
     cd /media/ext3fs/${NAME}
-    curl -C - -O http://archlinuxarm.org/os/ArchLinuxARM-2011.08-armv7h-chroot.tar.gz
-    tar -z -x -f ArchLinuxARM-2011.08-armv7h-chroot.tar.gz || exit 1
-    rm ArchLinuxARM-2011.08-armv7h-chroot.tar.gz
+    curl -C - -O http://ftp.osuosl.org/pub/funtoo/funtoo-experimental/arm/armv7a/stage3-armv7a-funtoo-experimental-2011-10-29.tar.gz 
+    tar -z -x -f http://ftp.osuosl.org/pub/funtoo/funtoo-experimental/arm/armv7a/stage3-armv7a-funtoo-experimental-2011-10-29.tar.gz || exit 1
+    rm http://ftp.osuosl.org/pub/funtoo/funtoo-experimental/arm/armv7a/stage3-armv7a-funtoo-experimental-2011-10-29.tar.gz
 fi
 
 # Install the upstart script
