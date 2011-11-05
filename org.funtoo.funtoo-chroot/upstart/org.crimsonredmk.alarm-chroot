@@ -1,3 +1,0 @@
-description "ArchLinux ARM Chroot"
-
-exec /media/cryptofs/apps/usr/palm/applications/org.crimsonredmk.alarm-chroot/bin/start-xterm.sh

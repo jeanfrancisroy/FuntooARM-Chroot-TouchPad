@@ -9,14 +9,32 @@ https://github.com/crimsonredmk/ArchLinuxARM-Chroot-TouchPad and
 http://www.webos-internals.org/wiki/UbuntuChroot and
 search around the internets.
 
+
 Building the IPK
 ================
 - Move org.funtoo.funtoo-chroot into a folder, usr/palm/applications/
   - this is the IPK's "data"
 
-TODO
-====
-- Add line in pmPostInstall to check if ext3fs is mounted before extracting
-- Make the entire Debian IPK structure
-- Something about upstart scripts?
-- What do we need for Xserver to hook into ArchLinux ARM?
+- My IPK is available for download if needed... But it comes with no guarantee.
+
+
+Installing
+==========
+The simplest way is to use WebOsQuickInstall. The installation will be very long as the 
+installer will download a Funtoo stage3 archive and extract it. IO being a bottleneck on
+the Touchpad, go grab a cup of coffee or something.
+
+
+Getting a UI
+============
+Getting a graphical user interface on your new Funtoo may be tricky, as you have 
+compile one. Enlightenment (E17) can be found on the enlightenment overlay, 
+accessible via LAYMAN. It's pretty quick to build and is compatible with touchscreens.
+
+
+What about gnome3?
+==================
+Gnome 3.2 is supposed to work well with touchscreens. If you are able to compil and
+use it on the Touchpad, let me know! For now I can't have the 3D acceleration/OpenGL
+to work as we don't "boot" Funtoo on the Touchpad, but use it within an XTERM.
+
