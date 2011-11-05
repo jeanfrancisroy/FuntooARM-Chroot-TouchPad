@@ -10,7 +10,7 @@ mount -t proc none ${CHROOT}/proc
 mount --bind /sys ${CHROOT}/sys
 mount --bind /tmp ${CHROOT}/tmp
 
-chroot ${CHROOT} /bin/bash -c "env-update; source /etc/profile"
+chroot ${CHROOT} /bin/bash -c "env-update; source /etc/profile; su -"
 
 umount ${CHROOT}/tmp
 umount ${CHROOT}/sys

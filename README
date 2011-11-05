@@ -20,9 +20,15 @@ Building the IPK
 
 Installing
 ==========
-The simplest way is to use WebOsQuickInstall. The installation will be very long as the 
-installer will download a Funtoo stage3 archive and extract it. IO being a bottleneck on
-the Touchpad, go grab a cup of coffee or something.
+The simplest way is to use WebOsQuickInstall. 
+After the installation, open a console on the Touchpad (or use Novaterm) and run
+/media/cryptofs/apps/usr/palm/applications/org.funtoo.funtoo-chroot/pmPostInstall.script.
+It will get the stage3 and extract it.
+
+Then, if you want to start the chroot from within Xecutah, edit
+/media/cryptofs/apps/usr/palm/applications/org.webosinternals.xecutah/app/assistants/main-assistant.js
+and add 'org.funtoo.funtoo-chroot' in this.supportedApps. Don't forget to add a comma!
+
 
 
 Getting a UI
