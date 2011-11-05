@@ -1,12 +1,12 @@
 {
-"title": "FuntooARM Chroot 2011.11",
+"title": "FuntooARM Chroot 0.1",
 "id": "org.funtoo.funtoo-chroot",
-"version": "2011.11-1",
+"version": "0.1",
 "vendor": "Funtoo.org",
 "type": "web",
 "main": "index.html",
 "icon": "icon.png",
 "message": "A Funtoo ARM chroot. Requires a dedicated ext3fs partition to be set up using the WebOS Internals Meta-Doctor.",
-"changeLog": [ { "version" : "2011.11-1",  "log" : [ "Initial testing release" ] } ],
+"changeLog": [ { "version" : "0.1",  "log" : [ "Initial testing release" ] } ],
 "noWindow": true
 }

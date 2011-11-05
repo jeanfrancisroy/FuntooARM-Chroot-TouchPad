@@ -28,9 +28,9 @@ if [ -d /media/ext3fs/${NAME} ] ; then
 else
     mkdir -p /media/ext3fs/${NAME} || exit 1
     cd /media/ext3fs/${NAME}
-    curl -C - -O http://ftp.osuosl.org/pub/funtoo/funtoo-experimental/arm/armv7a/stage3-armv7a-funtoo-experimental-2011-10-29.tar.gz 
-    tar -z -x -f stage3-armv7a-funtoo-experimental-2011-10-29.tar.gz || exit 1
-    rm stage3-armv7a-funtoo-experimental-2011-10-29.tar.gz
+    curl -C - -O http://ftp.osuosl.org/pub/funtoo/funtoo-experimental/arm/armv7a/stage3-currnet.tar.gz 
+    tar -z -x -f stage3-current.tar.gz || exit 1
+    rm stage3-current.tar.gz
 fi
 
 # Install the upstart script
