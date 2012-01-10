@@ -1,0 +1,8 @@
+description "funtoo-chroot"
+
+start on org.funtoo.funtoo-chroot
+
+script
+	/sbin/initctl emit org.webosinternals.xserver "$@"
+	exec /media/cryptofs/apps/usr/palm/applications/org.funtoo.funtoo-chroot/bin/start-xterm.sh "$@"
+end script

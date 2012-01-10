@@ -1,0 +1,9 @@
+Package: org.funtoo.funtoo-chroot
+Priority: optional
+Section: Misc
+Version: 0.1
+Architecture: arm
+Maintainer: Jean-Francis Roy <jeanfrancis@funtoo.org>
+Depends: 
+Source: github.com/jeanfrancisroy
+Description: org.funtoo.funtoo-chroot extracts a Funtoo arm stage3 and chroots into it. 
